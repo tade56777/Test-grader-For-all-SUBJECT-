@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Grader - Download</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #4c3f91;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .download-section {
+            background-color: #f0f4f8;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: #4c3f91;
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #3b2f70;
+        }
+
+        .download-button i {
+            margin-right: 0.5rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .feature {
+            background-color: #f9f9f9;
+            border-left: 4px solid #4c3f91;
+            padding: 1.2rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .version-list {
+            margin-top: 2rem;
+        }
+
+        .version {
+            border-left: 3px solid #4c3f91;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        code {
+            background-color: #f0f0f0;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: Consolas, Monaco, 'Courier New', monospace;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .screenshot {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .code-preview {
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            padding: 1.5rem;
+            overflow-x: auto;
+            margin-top: 1.5rem;
+        }
+
+        pre {
+            margin: 0;
+            font-family: Consolas, Monaco, 'Courier New', monospace;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Test Grader</h1>
+        <p class="subtitle">A professional grade calculation tool</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>About Test Grader</h2>
+            <p>
+                Test Grader is a powerful Python application designed to help educators and students calculate and
+                visualize test scores.
+                With an intuitive interface and comprehensive grading scale, it provides detailed feedback and visual
+                representation
+                of test performance.
+            </p>
+
+            <div class="download-section">
+                <h3>Download Test Grader</h3>
+                <p>Get the latest version of Test Grader for your system:</p>
+                <a href="test%20grader%20V6.0.0.py" download class="download-button">
+                    <i class="fas fa-download"></i> Download Test Grader v6.0.0 (Python Script)
+                </a>
+                <p class="note">
+                    <small>Requires Python 3.6 or higher to run</small>
+                </p>
+            </div>
+            <p>Test Grader is a free and open-source tool. We
+        
+        </div>
+
+        <div class="card">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Comprehensive Grading</h3>
+                    <p>Uses a detailed grading scale with plus grades (A, B+, B, C+, C, D+, D, F) for precise
+                        assessment.</p>
+                </div>
+                <div class="feature">
+                    <h3>Visual Score Representation</h3>
+                    <p>Displays test scores with intuitive progress bars and performance indicators.</p>
+                </div>
+                <div class="feature">
+                    <h3>Personalized Feedback</h3>
+                    <p>Generates customized feedback based on the score, with specific improvement suggestions.</p>
+                </div>
+                <div class="feature">
+                    <h3>Input Validation</h3>
+                    <p>Ensures only valid grades are entered, with helpful error messages.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>How to Use</h2>
+            <ol>
+                <li>Download the Python script using the button above</li>
+                <li>Make sure you have Python installed on your computer</li>
+                <li>Run the script using Python: <code>python "test grader V6.0.0.py"</code></li>
+                <li>Enter the test score when prompted</li>
+                <li>View the detailed results, including letter grade and feedback</li>
+                <li>Optionally grade additional tests without restarting the program</li>
+            </ol>
+
+            <h3>Code Preview</h3>
+            <div class="code-preview">
+                <pre><code>def determine_grade(score):
+    """Determine letter grade, message, and color code based on score."""
+    if score >= 90:
+        return "A", "Excellent work! Outstanding performance!", "A+"
+    elif score >= 85:
+        return "B+", "Very good job! Above average performance.", "B+"
+    elif score >= 80:
+        return "B", "Good job! Strong performance.", "B" 
+    # ... and so on</code></pre>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Version History</h2>
+            <div class="version-list">
+                <div class="version">
+                    <h3>v6.0.0 (Current)</h3>
+                    <p>Major overhaul with improved user interface, expanded grading scale, and detailed feedback
+                        system.</p>
+                    <ul>
+                        <li>Added plus grades (B+, C+, D+)</li>
+                        <li>Enhanced visual score representation</li>
+                        <li>Added personalized feedback system</li>
+                        <li>Improved error handling and user experience</li>
+                    </ul>
+                </div>
+                <div class="version">
+                    <h3>v2.4.12</h3>
+                    <p>Added input validation and grade boundaries reference.</p>
+                </div>
+                <div class="version">
+                    <h3>v2.3.0</h3>
+                    <p>Added more detailed feedback messages and improved grading scale.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 Test Grader. All rights reserved.</p>
+        <p>Download the latest version for free and improve your grading experience today!</p>
+    </footer>
+</body>
+
+</html>
